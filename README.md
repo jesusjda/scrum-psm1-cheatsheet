@@ -31,8 +31,14 @@
 
 ## **What is SCRUM?**
 
-Scrum is a lightweight framework that helps people, teams and organizations generate value through
-adaptive solutions for complex problems.
+Scrum is a lightweight **framework** that helps people, teams and organizations generate value through
+adaptive solutions for complex problems. Scrum is simple. Try to help to achieve goals and create value. Scrum framework is **incomplete**.
+
+> In a nutshell, Scrum requires a Scrum Master to *promote* an enviroment where:
+> 1. A Product Owner orders the work for a complex problem into a Product Backlog.
+> 2. The Scrum Teams turns a slection of the work into an Increment of value during a Sprint.
+> 3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.
+> 4. Repeat.
 
 ## **Big Picture**
 
@@ -99,9 +105,9 @@ We can divide 12 principles of Agile Manifesto in four differents categories:
 
 > Scrum is founded on **empiricism** and lean thinking. Empiricism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thinking reduces waste and focuses on the essentials.
 
-- `Transparency`: The emergent process and work must be visible to those   performing the work as well as those receiving the work.
+- `Transparency`: The emergent process and work must be visible to those performing the work as well as those receiving the work.
 - `Inspection`: The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to detect potentially undesirable variances or problems. To help with inspection, Scrum provides cadence in the form of its five events.
-- `Adaptation`: A Scrum Team is expected to adapt the moment it learns anything new through inspection.
+- `Adaptation`: A Scrum Team is expected to adapt the moment it learns anything new through inspection. The adjustment must be made as soon as possible to minimize further deviation.
 
 > **Transparency** enables inspection > **Inspection** enables adaptation > **Adaptation**
 
@@ -111,11 +117,11 @@ We can divide 12 principles of Agile Manifesto in four differents categories:
 
 > Successful use of Scrum depends on people becoming more proficient in living five values.
 
-- `Commitment`. 
-- `Courage`.
-- `Openness`.
-- `Focus`.
-- `Respect`.
+> - `Commitment`. 
+> - `Courage`.
+> - `Openness`.
+> - `Focus`.
+> - `Respect`.
 
 </br>
 
@@ -125,10 +131,11 @@ We can divide 12 principles of Agile Manifesto in four differents categories:
 **`Composed by:`** 
 - **Product Owner** (PO) [x1]
 - **Scrum Master** (SM) [x1]
--  **Developers** (Devs) [< x10]
+- **Developers** (Devs) [< x10]
 
 
 > If Scrum Team come large, they should consider reorganizing into multiple cohesive teams, each focused in same Product. **They should share same Product Goal, Product Owner and Product Backlog**
+> Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint. They are also self-managing, meaning they internally decide who does what, when, and how.
 
 ### Product Owner.
 - Maximizes the **value** delivery chain.
@@ -140,7 +147,11 @@ We can divide 12 principles of Agile Manifesto in four differents categories:
 - Product Owner must have **authority**.
 
 ### Developers.
-- They are responsible for transforming the idea reflected in the **Product Backlog** into **Incrementals**.
+They are responsible for: 
+- transforming the idea reflected in the **Product Backlog** into **Incrementals**.
+- creating a plan for the Sprint, the **Sprint Backlog**
+- Adapting their plan each day toward the Sprint Goal.
+They are:
 - **Self-Managed** and **Cross-Functional**.
 - Allowed to update **Product Backlog**, but the PO remains accountable.
 - Estimate the **size** of the **Product Backlog**.
@@ -196,6 +207,8 @@ Each artifact contains a commitment:
     - Risk
     - Value
     - Dependences
+- The **Developers** are the responsible for sizing.
+
 
 **`Monitoring progress`**
 
@@ -217,11 +230,11 @@ Three diferents ways proposed by Scrum Guide to control/monitoring the progress:
 
 >The Sprint Backlog is composed of the Sprint Goal (why), the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how).
 
-- By and for the developers. **Only devs can change** the Sprint Backlog.
+- By and for the developers. **Only developers can change** the Sprint Backlog.
 
 - **Sprint Goal** is fixed, but **Sprint Backlog** could have changes without change the Sprint Goal.
 
-### Incremental
+### Increment
 
 - Represent **value**
 - Each Increment is additive to all prior Increments and thoroughly verified, ensuring that all Increments work together. In order to provide value, the Increment must be usable.
@@ -230,7 +243,7 @@ Three diferents ways proposed by Scrum Guide to control/monitoring the progress:
         > A **formal description** of the state of the increment when it meets the **quality** measures required for the product.
     - Each Increment has **only one** DOD.
     - The organization defined DOD, if the organization does not have one, the scrum team must define one appropiated DOD.
-- You **dont need** to release Increment at the end of every sprint.
+- You **don't need** to release Increment at the end of every sprint.
 - The Sprint **is not a gate**, release might be performed during a sprint.
 
 
@@ -248,16 +261,6 @@ Three diferents ways proposed by Scrum Guide to control/monitoring the progress:
 
 - Events are a formal opportunity to inspect and adapt something.
 
-### Sprint Planning:
-
-- `Who`: 
-    - Scrum Team.
-    - Invited Stakeholders if needed.
-- `Topics:`
-    - **Why is this Sprint valuable?** *Sprint Goal*
-    - **What can be done this sprint?** *Sprint Backlog*
-        - **Measure:** Past performance, their upcoming capacity, and their Definition of Done
-    - **How will the chosen work get done?** *Increment*
 
 ### Sprint
 
@@ -275,6 +278,17 @@ Three diferents ways proposed by Scrum Guide to control/monitoring the progress:
     - Release Sprint
     - Design Sprint
 
+### Sprint Planning:
+
+- `Who`: 
+    - Scrum Team.
+    - Invited Stakeholders if needed.
+- `Topics:`
+    - **Why is this Sprint valuable?** The whole Scrum Team defines *Sprint Goal*.
+    - **What can be done this sprint?** The **Developers** select items and build the *Sprint Backlog*.
+        - **Measure:** Past performance, their upcoming capacity, and their Definition of Done
+    - **How will the chosen work get done?** The **Developers** define how to transform the Product Backlog into *Increments of value*.
+ 
 ### Daily Scrum
 
 - Where developers talk about their **progress** toward the **sprint goal** and to **adapt** the **Sprint Backlog** as needed.
@@ -291,6 +305,7 @@ Three diferents ways proposed by Scrum Guide to control/monitoring the progress:
 
 - The **Goal** is **inspect** the increment or any other outcome of the Sprint.
 - **Adapt** Product Backlog if needed.
+- Is a working session. Avoid limiting it to a presentation.
 - **Undone work** is **NOT** presented during Sprint Review. 
 - Sprint Review is based on **transparency** and **colaboration**.
 
